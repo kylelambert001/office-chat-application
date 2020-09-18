@@ -1,0 +1,12 @@
+.topbar {
+  grid-area: topbar;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--bg-border);
+}
+
+.topbar-heading {
+  padding: 0 1.5rem;
+}

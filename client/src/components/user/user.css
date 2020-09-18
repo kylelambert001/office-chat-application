@@ -1,0 +1,43 @@
+.user {
+  padding: 2rem 3rem;
+  min-height: 8rem;
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border-bottom: 1px solid var(--bg-border);
+  cursor: pointer;
+}
+
+.user:hover {
+  background-color: var(--bg-secondary);
+}
+
+.user--active {
+  position: relative;
+  background-color: var(--bg-secondary);
+}
+
+.user--active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--accent-blue);
+}
+
+.user-avatar {
+  flex-shrink: 0;
+  margin-right: 1.8rem;
+}
+
+.user-heading {
+  display: block;
+  line-height: 1.4;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}

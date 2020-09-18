@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --text-primary: #3e3f42;
+  --text-secondary: #6b6c6f;
+  --text-tertiary: #bcbcbc;
+  --text-white: #ffffff;
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #fbfbfd;
+  --bg-border: #eaedf3;
+
+  --accent-blue: #1665d8;
+  --accent-green: #38b249;
+  --accent-violet: #6977ff;
+  --accent-red: #e6492d;
+  --accent-orange: #f6ab2f;
+  --accent-yellow: #facf55;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  overscroll-behavior: none;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+}

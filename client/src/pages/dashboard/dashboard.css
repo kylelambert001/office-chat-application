@@ -1,0 +1,11 @@
+.dashboard-grid {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 38rem auto;
+  grid-template-rows: 7rem auto;
+  grid-template-areas:
+    "topbar topbar"
+    "sidebar conversation";
+  background-color: var(--bg-primary);
+}
